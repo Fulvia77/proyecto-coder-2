@@ -1,0 +1,47 @@
+//BUSINESS ENGLISH WITH FLAVIA
+#foto-personal {
+    height: 200px;
+    width: auto;
+    margin-left: 35px;
+    margin-top: 25px;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: #808080;
+  }
+  
+  
+.card {
+    height: 100%;
+  }
+  
+  .card-img-top2 {
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+ 
+  
+  
+  @media (max-width: 768px) {
+    .custom-hide-on-small {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 768px) {
+    .special {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .col-md-3 {
+      text-align: center;
+  
+      #imagen2 {
+        max-width: 100%;
+      }
+    }
+  }

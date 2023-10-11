@@ -1,0 +1,3 @@
+.paragraph-a {
+    @include link-styles ($text-color, $hover-color);
+}

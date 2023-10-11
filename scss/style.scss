@@ -1,0 +1,42 @@
+//import UTILITIES
+@import "./utilities/variables";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+
+//import BASE
+@import "./base/reset";
+
+//import LAYOUT
+@import "./layout/footer";
+@import "./layout/form";
+@import "./layout/header";
+@import "./layout/nav";
+
+//import VIEWS
+@import "./views/home";
+@import "./views/capacitacion";
+@import "./views/contact";
+
+//import COMPONENTS
+@import "./components/button";
+
+@media (max-width: 768px) {
+    .custom-hide-on-small {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 768px) {
+    .special {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .col-md-3 {
+      text-align: center; 
+    }
+    #imagen2 {
+      max-width: 100%; 
+    }
+  }
+  

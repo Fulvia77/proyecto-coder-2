@@ -1,0 +1,55 @@
+@use "sass:map";
+
+//MIXIN PARA BOTONES
+@mixin button-styles {
+    background-color: $background-color;
+    color: $button-textColor;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: darken($background-color, 10%);
+    }
+  }
+  
+  //MIXIN PARA TEXTO
+  @mixin text-properties {
+    font-size: $font-size;
+    color: $text-color;
+  }
+
+  //MIXIN PARA ENCABEZADOS
+  @mixin header-styles ($font-size, $main-color, $weight: "regular"){
+    font-size: $font-size;
+    font-weight: map.get($font-weights, $weight);
+    color: $main-color;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+  }
+
+  //MIXIN PARA ENLACES
+  @mixin link-styles ($text-color, $hover-color){
+    color: $text-color;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  
+    &:hover {
+      color: $hover-color;
+    }
+  }
+
+  //MIXIN PARA EL NAVBAR
+  @mixin nav-styles ($text-color, $hover-color){
+    color: $text-color;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  
+    &:hover {
+          color: $hover-color;
+          animation: swing;
+          animation-duration: 0.3s;
+        }
+  }
