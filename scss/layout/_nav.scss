@@ -1,3 +1,14 @@
 .nav-link {
     @include nav-styles($text-color, $hover-color);
 }
+
+#imagen2 {
+    height: 200px;
+    width: auto;
+    margin-left: 35px;
+    margin-top: 25px;
+  }
+
+ .navbar-nav {
+    margin-right: 30px;
+ }

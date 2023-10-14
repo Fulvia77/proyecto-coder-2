@@ -1,0 +1,12 @@
+.nav-link {
+    @include nav-styles($text-color, $hover-color);
+}
+
+.subheaders {
+    margin-left: 20px;
+}
+.paragraph2 {
+    @include paragraph-properties;
+}
+
+

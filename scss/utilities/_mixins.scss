@@ -38,6 +38,8 @@
   
     &:hover {
       color: $hover-color;
+      transform: scale(1.2);
+      font-size: 20px;
     }
   }
 
@@ -51,5 +53,14 @@
           color: $hover-color;
           animation: swing;
           animation-duration: 0.3s;
+          font-size: 18px;
         }
+  }
+
+  //MIXIN PARA PARRAFO DE CAPACITACION CORPORATIVA
+  @mixin paragraph-properties {
+    font-size: $font-size;
+    color: $text-color;
+    margin-left: 20px;
+    margin-right: 20px;
   }
