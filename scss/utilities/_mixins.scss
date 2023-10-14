@@ -48,12 +48,17 @@
     color: $text-color;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
+    border: 1px solid #ccc; 
+    padding: 4px 8px;
+    border-radius: 4px; 
+    transition: border 0.3s; 
   
     &:hover {
           color: $hover-color;
           animation: swing;
           animation-duration: 0.3s;
           font-size: 18px;
+          border: none;
         }
   }
 

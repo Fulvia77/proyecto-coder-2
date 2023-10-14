@@ -22,9 +22,13 @@
   }
 }
 
-
+.card-title{
+  color: $main-color;
+}
   
- 
+ .card-text {
+  color: $text-color;
+ }
   
   
   @media (max-width: 768px) {

@@ -1,5 +1,6 @@
 .nav-link {
     @include nav-styles($text-color, $hover-color);
+    margin-right: 5px;
 }
 
 #imagen2 {

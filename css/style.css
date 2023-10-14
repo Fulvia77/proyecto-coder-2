@@ -48,12 +48,18 @@ h3, h4 {
   color: #808080;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: border 0.3s;
+  margin-right: 5px;
 }
 .nav-link:hover {
   color: #3abdc4;
   animation: swing;
   animation-duration: 0.3s;
   font-size: 18px;
+  border: none;
 }
 
 #imagen2 {
@@ -88,6 +94,14 @@ body {
   object-fit: cover;
 }
 
+.card-title {
+  color: #e26b69;
+}
+
+.card-text {
+  color: #808080;
+}
+
 @media (max-width: 768px) {
   .custom-hide-on-small {
     display: none;
@@ -106,15 +120,32 @@ body {
     max-width: 100%;
   }
 }
+.nav-link {
+  color: #808080;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: border 0.3s;
+}
+.nav-link:hover {
+  color: #3abdc4;
+  animation: swing;
+  animation-duration: 0.3s;
+  font-size: 18px;
+  border: none;
+}
+
+.subheaders {
+  margin-left: 20px;
+}
+
 .paragraph2 {
   font-size: 14px;
   color: #808080;
   margin-left: 20px;
   margin-right: 20px;
-}
-
-.subheaders {
-  margin-left: 20px;
 }
 
 .btn-custom {
