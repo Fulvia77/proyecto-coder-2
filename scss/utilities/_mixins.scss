@@ -62,10 +62,18 @@
         }
   }
 
+  //MIXIN PARA IMAGEN ROMPE
+  @mixin rompe-img {
+    height: 15px;
+    display: inline; 
+  vertical-align: middle; 
+  }
+
   //MIXIN PARA PARRAFO DE CAPACITACION CORPORATIVA
   @mixin paragraph-properties {
     font-size: $font-size;
     color: $text-color;
+    text-align: justify;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 25px;
   }

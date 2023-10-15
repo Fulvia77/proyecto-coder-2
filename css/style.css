@@ -62,6 +62,10 @@ h3, h4 {
   border: none;
 }
 
+.nav-item {
+  margin-top: 5px;
+}
+
 #imagen2 {
   height: 200px;
   width: auto;
@@ -78,6 +82,12 @@ h3, h4 {
   width: auto;
   margin-left: 35px;
   margin-top: 25px;
+}
+
+.rompe {
+  height: 15px;
+  display: inline;
+  vertical-align: middle;
 }
 
 body {
@@ -137,15 +147,32 @@ body {
   border: none;
 }
 
-.subheaders {
-  margin-left: 20px;
+.subheaders1 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #e26b69;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 25px;
+}
+
+.subheaders2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #e26b69;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-right: 25px;
 }
 
 .paragraph2 {
   font-size: 14px;
   color: #808080;
+  text-align: justify;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 .btn-custom {

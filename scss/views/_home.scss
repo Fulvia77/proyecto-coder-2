@@ -6,6 +6,10 @@
     margin-top: 25px;
   }
   
+.rompe {
+  @include rompe-img;
+}
+
   body {
     font-family: 'Open Sans', sans-serif;
     color: #808080;

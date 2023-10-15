@@ -2,6 +2,9 @@
     @include nav-styles($text-color, $hover-color);
     margin-right: 5px;
 }
+.nav-item{
+    margin-top: 5px;
+}
 
 #imagen2 {
     height: 200px;
