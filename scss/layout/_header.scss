@@ -3,11 +3,6 @@ h1 {
 
 }
 
-h2 {
+h2, h3, h4 {
     @include header-styles (1rem, $main-color, "bold");
   }
-
-  h3, h4 {
-    @include header-styles (1rem, $main-color);
-  }
-  

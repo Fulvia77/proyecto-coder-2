@@ -77,3 +77,30 @@
     margin-left: 20px;
     margin-right: 25px;
   }
+
+  //MIXIN PARA BOTON DE WHATSAPP
+  @mixin whatsapp-button($phone-number) {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 65px;
+    height: 65px;
+    z-index: 1;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+      }
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+  
+  
+  
