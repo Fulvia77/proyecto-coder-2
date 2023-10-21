@@ -6,6 +6,7 @@
     margin-top: 25px;
   }
   
+
 .rompe {
   @include rompe-img;
 }
@@ -15,6 +16,9 @@
     color: #808080;
   }
   
+  .paragraph {
+    @include textocentral;
+  }
 
 .card {
     height: 100%;

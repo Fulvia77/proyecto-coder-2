@@ -69,6 +69,11 @@
   vertical-align: middle; 
   }
 
+  //MIXIN PARA PARAGRAPH
+  @mixin textocentral {
+    margin-left: 20px;
+  }
+
   //MIXIN PARA PARRAFO DE CAPACITACION CORPORATIVA
   @mixin paragraph-properties {
     font-size: $font-size;
