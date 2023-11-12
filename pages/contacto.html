@@ -61,17 +61,17 @@
         <h1>Contacto</h1>
       </div>
     </div>
-  
-    <!-- FORMULARIO -->
+
+<!-- FORMULARIO -->
     <div class="row justify-content-center">
       <div class="col-md-6">
-        <form>
+        <form action="procesar_formulario.php" method="POST">
           <div class="mb-3">
             <label for="nombre" class="form-label">Nombre</label>
             <input type="text" class="form-control" id="nombre" name="nombre" required>
           </div>
           <div class="mb-3">
-            <label for="correo" class="form-label">Correo Electrónico</label>
+            <label for="email" class="form-label">Correo Electrónico</label>
             <input type="email" class="form-control" id="correo" name="correo" required>
           </div>
           <div class="mb-3">
@@ -85,7 +85,8 @@
       </div>
     </div>
   </div>
-   
+
+
   <!--BOTON WHATSAPP-->
   <div class="whatsapp-button">
     <a href="https://wa.me/1123956526" target="_blank"><img src="../images/what.jpg" alt="WhatsApp"></a>
