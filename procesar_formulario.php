@@ -1,3 +1,4 @@
+<?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $nombre = $_POST["nombre"];
     $email = $_POST["email"];
@@ -11,7 +12,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     mail($destinatario, "Nuevo mensaje de contacto", $cuerpoMensaje);
 
-// Redireccionar o mostrar un mensaje de éxito
 header("Location: gracias.html");
 exit();
 }
