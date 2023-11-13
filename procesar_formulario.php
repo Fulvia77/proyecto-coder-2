@@ -1,18 +1,22 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nombre = $_POST["nombre"];
-    $email = $_POST["email"];
-    $mensaje = $_POST["mensaje"];
 
-    $destinatario = "info@businessenglishwithflavia.com";
+$nombre = $_POST['nombre'];
+$correo = $_POST['correo'];
+$mensaje = $_POST['mensaje'];
 
-    $cuerpoMensaje = "Nombre: $nombre\n";
-    $cuerpoMensaje .= "Email: $email\n";
-    $cuerpoMensaje .= "Mensaje:\n$mensaje";
+$formcontent="
+Nombre: $nombre \n
+Correo: $correo \n
+Mensaje: $mensaje
+";
 
-    mail($destinatario, "Nuevo mensaje de contacto", $cuerpoMensaje);
+$recipient = "info@businessenglishwithflavia.com, flavia_drago@hotmail.com";
 
+$subject = "Consulta via web de $nombre";
+
+$header = "From: $email \r\n";
+$header .= "Content-Type: text/plain; charset=UTF-8";
+mail($recipient, $subject, $formcontent, $header) or die("Error!");
 header("Location: gracias.html");
-exit();
-}
+
 ?>
