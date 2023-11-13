@@ -10,7 +10,7 @@ Correo: $correo \n
 Mensaje: $mensaje
 ";
 
-$recipient = "info@businessenglishwithflavia.com, flavia_drago@hotmail.com";
+$recipient = "info@businessenglishwithflavia.com";
 
 $subject = "Consulta via web de $nombre";
 
