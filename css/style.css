@@ -171,6 +171,23 @@ body {
   margin-right: 25px;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.parrafo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: 18px;
+  margin: 10px;
+}
+
 .btn-custom {
   background-color: #3abdc4;
   color: white;

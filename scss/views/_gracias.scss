@@ -1,0 +1,10 @@
+.header {
+@include gracias;
+padding: 10px;
+}
+
+.parrafo {
+    @include gracias;
+    font-size: 18px;
+  margin: 10px;
+}
